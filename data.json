@@ -1,0 +1,49 @@
+[
+    {
+        "answers": ["dark brown", "brown"],
+        "object_ids": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        "object_names": ["chair", "chair", "chair", "chair", "chair", "chair", "chair", "chair", "chair", "chair"],
+        "question": "What color is the chair in the kitchen?",
+        "question_id": "val-scene0011-0",
+        "scene_id": "scene0011_00"
+    },
+    {
+        "answers": ["dark brown", "brown"], 
+        "object_ids": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 
+        "object_names": ["chair", "chair", "chair", "chair", "chair", "chair", "chair", "chair", "chair", "chair"], 
+        "question": "What color is the wooden chair in the kitchen?", 
+        "question_id": "val-scene0011-1", 
+        "scene_id": "scene0011_00"
+    },
+    {
+        "answers": ["at head of long rectangular table", "around table"], 
+        "object_ids": [2, 9], "object_names": ["table", "chair"], 
+        "question": "Where is the brown wooden chair placed?", 
+        "question_id": "val-scene0011-2", 
+        "scene_id": "scene0011_00"
+    },
+    {
+        "answers": ["brown", "brown"], 
+        "object_ids": [3], 
+        "object_names": ["armchair"], 
+        "question": "What color is the armchair?", 
+        "question_id": "val-scene0011-3",
+        "scene_id": "scene0011_00"
+    },
+    {
+        "answers": ["brown", "brown"], 
+        "object_ids": [1], 
+        "object_names": ["kitchen cabinets"], 
+        "question": "What color are the lower kitchen cabinets?", 
+        "question_id": "val-scene0011-4", 
+        "scene_id": "scene0011_00"
+    }, 
+    {
+        "answers": ["kitchen cabinets", "cabinets"],
+        "object_ids": [1, 20, 26],
+        "object_names": ["kitchen cabinets", "cabinet", "sink"],
+        "question": "What is under the sink?",
+        "question_id": "val-scene0011-5",
+        "scene_id": "scene0011_00"
+    }
+]

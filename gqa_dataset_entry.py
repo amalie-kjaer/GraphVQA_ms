@@ -469,6 +469,8 @@ class GQATorchDataset(torch.utils.data.Dataset):
 
         print("finished loading the data, totally {} instances".format(len(self.data)))
         self.vocab = GQATorchDataset.TEXT.vocab
+        # AK
+        # print(self.data)
 
     def __getitem__(self, index):
 
