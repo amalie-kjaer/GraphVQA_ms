@@ -1,0 +1,1211 @@
+{
+  "scene0000_00": {
+    "0": {
+      "label": "window",
+      "x": 4.421947215566572,
+      "y": 8.26341383820338,
+      "z": 1.900305027203844,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 21,
+          "edge_label": "built in"
+        }
+      ]
+    },
+    "1": {
+      "label": "window",
+      "x": 8.06093692779541,
+      "y": 2.1252554682168094,
+      "z": 1.533684261820533,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 27,
+          "edge_label": "built in"
+        }
+      ]
+    },
+    "2": {
+      "label": "table",
+      "x": 4.486607180017605,
+      "y": 6.87988033617337,
+      "z": 0.8682351255556162,
+      "attributes": [
+        "long",
+        "bar"
+      ],
+      "relations": [
+        {
+          "object": 29,
+          "edge_label": "above"
+        },
+        {
+          "object": 31,
+          "edge_label": "above"
+        },
+        {
+          "object": 66,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "3": {
+      "label": "kitchen counter",
+      "x": 5.959926834354153,
+      "y": 8.075408315245724,
+      "z": 1.009036313532751,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 42,
+          "edge_label": "above"
+        },
+        {
+          "object": 51,
+          "edge_label": "beneath"
+        },
+        {
+          "object": 53,
+          "edge_label": "beneath"
+        }
+      ]
+    },
+    "4": {
+      "label": "shower",
+      "x": 6.521327905156893,
+      "y": 2.0239633584150516,
+      "z": 0.7788190723316387,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 50,
+          "edge_label": "behind the wall"
+        }
+      ]
+    },
+    "5": {
+      "label": "curtain",
+      "x": 0.8785005522372634,
+      "y": 3.484001116908739,
+      "z": 0.9831596830600606,
+      "attributes": [
+        "green",
+        "large",
+        "blue"
+      ],
+      "relations": []
+    },
+    "6": {
+      "label": "curtain",
+      "x": 3.378339358389159,
+      "y": 0.5083935236264935,
+      "z": 1.6361975192150353,
+      "attributes": [
+        "tan",
+        "beige",
+        "wide"
+      ],
+      "relations": []
+    },
+    "7": {
+      "label": "desk",
+      "x": 3.0679181498103727,
+      "y": 0.8111897332767594,
+      "z": 0.4743452736912477,
+      "attributes": [
+        "beige",
+        "wooden",
+        "working",
+        "table",
+        "brown",
+        "computer"
+      ],
+      "relations": [
+        {
+          "object": 14,
+          "edge_label": "next to"
+        },
+        {
+          "object": 59,
+          "edge_label": ""
+        }
+      ]
+    },
+    "8": {
+      "label": "cabinet",
+      "x": 0.7665806334432148,
+      "y": 5.8007131903571905,
+      "z": 1.3497434568732374,
+      "attributes": [
+        "space",
+        "tv",
+        "sturdy",
+        "full-sized",
+        "corner",
+        "large",
+        "opening",
+        "center",
+        "television",
+        "wood",
+        "brown",
+        "wooden"
+      ],
+      "relations": [
+        {
+          "object": 15,
+          "edge_label": "beneath"
+        }
+      ]
+    },
+    "9": {
+      "label": "floor",
+      "x": 4.111215019580767,
+      "y": 4.17789346965724,
+      "z": 0.06122726479978568,
+      "attributes": [],
+      "relations": []
+    },
+    "10": {
+      "label": "sink",
+      "x": 7.773530686099226,
+      "y": 3.445798944373157,
+      "z": 0.6291991352561593,
+      "attributes": [
+        "round",
+        "white",
+        "pedestal",
+        "small"
+      ],
+      "relations": []
+    },
+    "11": {
+      "label": "scale",
+      "x": 6.1872670505986065,
+      "y": 3.0655543479052456,
+      "z": 0.07118588996430238,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 22,
+          "edge_label": "next to"
+        },
+        {
+          "object": 44,
+          "edge_label": ""
+        },
+        {
+          "object": 47,
+          "edge_label": "behind the wall"
+        }
+      ]
+    },
+    "12": {
+      "label": "trash can",
+      "x": 6.471342404683431,
+      "y": 5.9371216380181,
+      "z": 0.3131791452381445,
+      "attributes": [
+        "white",
+        "plastic",
+        "clothes",
+        "handler",
+        "small",
+        "trash",
+        "no",
+        "lid",
+        "short"
+      ],
+      "relations": [
+        {
+          "object": 13,
+          "edge_label": "in front of"
+        }
+      ]
+    },
+    "13": {
+      "label": "trash can",
+      "x": 6.808959327069631,
+      "y": 5.95291407137032,
+      "z": 0.46997995839181195,
+      "attributes": [
+        "white",
+        "trash",
+        "lid"
+      ],
+      "relations": [
+        {
+          "object": 12,
+          "edge_label": "behind"
+        }
+      ]
+    },
+    "14": {
+      "label": "trash can",
+      "x": 3.6201566892365613,
+      "y": 1.1792319240048528,
+      "z": 0.20040966927384338,
+      "attributes": [
+        "white",
+        "trash",
+        "small"
+      ],
+      "relations": [
+        {
+          "object": 7,
+          "edge_label": "next to"
+        },
+        {
+          "object": 49,
+          "edge_label": "next to"
+        },
+        {
+          "object": 59,
+          "edge_label": ""
+        }
+      ]
+    },
+    "15": {
+      "label": "tv",
+      "x": 0.8322948634395673,
+      "y": 5.863895251517561,
+      "z": 1.1144589756592223,
+      "attributes": [
+        "black",
+        "flat",
+        "screen"
+      ],
+      "relations": [
+        {
+          "object": 8,
+          "edge_label": "above"
+        }
+      ]
+    },
+    "16": {
+      "label": "pillow",
+      "x": 4.9481988041817475,
+      "y": 1.281248394663006,
+      "z": 0.9655816599338914,
+      "attributes": [
+        "dark",
+        "wide",
+        "sit-up",
+        "brown",
+        "arm"
+      ],
+      "relations": [
+        {
+          "object": 19,
+          "edge_label": "up against"
+        }
+      ]
+    },
+    "17": {
+      "label": "clock",
+      "x": 1.6782179034274558,
+      "y": 1.0667367098124132,
+      "z": 1.8427737251571987,
+      "attributes": [],
+      "relations": []
+    },
+    "18": {
+      "label": "backpack",
+      "x": 2.275587977365006,
+      "y": 4.283168665198392,
+      "z": 0.2565903987504484,
+      "attributes": [],
+      "relations": []
+    },
+    "19": {
+      "label": "wall",
+      "x": 4.488089720582596,
+      "y": 0.8852960557237345,
+      "z": 1.451101316566938,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 16,
+          "edge_label": "behind"
+        },
+        {
+          "object": 48,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "20": {
+      "label": "wall",
+      "x": 1.2268848171607465,
+      "y": 2.363135196087288,
+      "z": 1.9189080320879774,
+      "attributes": [],
+      "relations": []
+    },
+    "21": {
+      "label": "wall",
+      "x": 4.63665670346996,
+      "y": 8.269859082731482,
+      "z": 1.4193174476628978,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 0,
+          "edge_label": "supporting"
+        }
+      ]
+    },
+    "22": {
+      "label": "wall",
+      "x": 6.0848237258494775,
+      "y": 2.9802377129023054,
+      "z": 0.7807456956005994,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 11,
+          "edge_label": "next to"
+        },
+        {
+          "object": 26,
+          "edge_label": "next to"
+        },
+        {
+          "object": 44,
+          "edge_label": ""
+        },
+        {
+          "object": 47,
+          "edge_label": "behind"
+        }
+      ]
+    },
+    "23": {
+      "label": "wall",
+      "x": 6.921597576241586,
+      "y": 6.416549927425335,
+      "z": 1.991513540344807,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 40,
+          "edge_label": ""
+        }
+      ]
+    },
+    "24": {
+      "label": "wall",
+      "x": 8.116674519840958,
+      "y": 3.0437323506417377,
+      "z": 1.4029972066730807,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 64,
+          "edge_label": "behind"
+        }
+      ]
+    },
+    "25": {
+      "label": "wall",
+      "x": 6.925684002240499,
+      "y": 3.828957272370656,
+      "z": 1.5233562481941447,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 63,
+          "edge_label": "supporting"
+        }
+      ]
+    },
+    "26": {
+      "label": "wall",
+      "x": 6.011681840729594,
+      "y": 2.637686059518826,
+      "z": 1.305898245438576,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 22,
+          "edge_label": "next to"
+        },
+        {
+          "object": 44,
+          "edge_label": ""
+        },
+        {
+          "object": 60,
+          "edge_label": ""
+        }
+      ]
+    },
+    "27": {
+      "label": "wall",
+      "x": 7.8034929046376265,
+      "y": 2.1198668039680455,
+      "z": 0.8713787666110693,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 1,
+          "edge_label": "next to"
+        },
+        {
+          "object": 36,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "28": {
+      "label": "stool",
+      "x": 4.888882309476906,
+      "y": 6.295864590974611,
+      "z": 0.4416165294885821,
+      "attributes": [
+        "wood",
+        "bar",
+        "round",
+        "high",
+        "kept",
+        "beneath",
+        "table"
+      ],
+      "relations": [
+        {
+          "object": 29,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "29": {
+      "label": "stool",
+      "x": 4.791033776324729,
+      "y": 6.765711570408033,
+      "z": 0.48580634593963623,
+      "attributes": [
+        "wooden",
+        "barstool",
+        "beige",
+        "shelf",
+        "round",
+        "bar"
+      ],
+      "relations": [
+        {
+          "object": 2,
+          "edge_label": "beneath"
+        },
+        {
+          "object": 28,
+          "edge_label": "next to"
+        },
+        {
+          "object": 31,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "30": {
+      "label": "stool",
+      "x": 4.466441749895691,
+      "y": 7.821834064665294,
+      "z": 0.5557831586511047,
+      "attributes": [
+        "wooden",
+        "brown",
+        "bar"
+      ],
+      "relations": [
+        {
+          "object": 31,
+          "edge_label": "next to"
+        },
+        {
+          "object": 66,
+          "edge_label": "behind the table"
+        }
+      ]
+    },
+    "31": {
+      "label": "stool",
+      "x": 4.576069995280235,
+      "y": 7.309167910006739,
+      "z": 0.510331638307581,
+      "attributes": [
+        "round",
+        "bar",
+        "brown",
+        "wooden",
+        "chair",
+        "rungs",
+        "short",
+        "people",
+        "feet"
+      ],
+      "relations": [
+        {
+          "object": 2,
+          "edge_label": "beneath"
+        },
+        {
+          "object": 29,
+          "edge_label": "next to"
+        },
+        {
+          "object": 30,
+          "edge_label": "next to"
+        },
+        {
+          "object": 66,
+          "edge_label": "behind the table"
+        }
+      ]
+    },
+    "32": {
+      "label": "couch",
+      "x": 3.5047836995727994,
+      "y": 5.555693332670623,
+      "z": 0.5778761105401875,
+      "attributes": [
+        "large",
+        "gray",
+        "l-shaped",
+        "black",
+        "sectional",
+        "grey"
+      ],
+      "relations": []
+    },
+    "33": {
+      "label": "refrigerator",
+      "x": 6.208857943529417,
+      "y": 6.450943101505269,
+      "z": 1.0754473550494579,
+      "attributes": [
+        "white",
+        "big",
+        "large",
+        "two-door"
+      ],
+      "relations": [
+        {
+          "object": 45,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "34": {
+      "label": "coffee table",
+      "x": 2.629127118322584,
+      "y": 6.156881021730827,
+      "z": 0.36272296625556366,
+      "attributes": [
+        "blue",
+        "coffee",
+        "table",
+        "light",
+        "purple",
+        "dark",
+        "gray",
+        "ottoman"
+      ],
+      "relations": []
+    },
+    "35": {
+      "label": "table",
+      "x": 1.8303633916668776,
+      "y": 1.613889074616316,
+      "z": 0.29019609372608546,
+      "attributes": [
+        "small",
+        "wood",
+        "coffee",
+        "light",
+        "brown",
+        "corner",
+        "rectangular",
+        "tan",
+        "scene"
+      ],
+      "relations": [
+        {
+          "object": 58,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "36": {
+      "label": "toilet",
+      "x": 7.982783167372716,
+      "y": 2.5929377677682215,
+      "z": 0.4156147740567965,
+      "attributes": [
+        "white",
+        "corner"
+      ],
+      "relations": [
+        {
+          "object": 27,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "37": {
+      "label": "bed",
+      "x": 4.819951336207871,
+      "y": 2.2108042388448217,
+      "z": 0.5154131193889321,
+      "attributes": [
+        "blue",
+        "sheets",
+        "large",
+        "covered",
+        "sheet"
+      ],
+      "relations": [
+        {
+          "object": 62,
+          "edge_label": ""
+        }
+      ]
+    },
+    "38": {
+      "label": "cabinet",
+      "x": 7.302338662512178,
+      "y": 4.631921316404059,
+      "z": 1.249787320978222,
+      "attributes": [
+        "brown",
+        "wooden",
+        "door",
+        "cupboard",
+        "closet"
+      ],
+      "relations": []
+    },
+    "39": {
+      "label": "cabinet",
+      "x": 2.2221902213201163,
+      "y": 0.7280683186717432,
+      "z": 0.9245260111379565,
+      "attributes": [
+        "white",
+        "corner",
+        "tall"
+      ],
+      "relations": []
+    },
+    "40": {
+      "label": "kitchen cabinets",
+      "x": 6.369346828712766,
+      "y": 6.4931425985260685,
+      "z": 2.1809170913066107,
+      "attributes": [
+        "brown",
+        "cabinet",
+        "kitchen",
+        "wood",
+        "two-door",
+        "wooden",
+        "cabinets",
+        "small"
+      ],
+      "relations": [
+        {
+          "object": 23,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "41": {
+      "label": "cabinet",
+      "x": 5.951946036243217,
+      "y": 1.8628055060104334,
+      "z": 1.9177164753555973,
+      "attributes": [
+        "brown",
+        "tan",
+        "wooden"
+      ],
+      "relations": [
+        {
+          "object": 60,
+          "edge_label": ""
+        }
+      ]
+    },
+    "42": {
+      "label": "cabinet",
+      "x": 5.817479371681488,
+      "y": 7.688486915012057,
+      "z": 0.5417909797468632,
+      "attributes": [
+        "beige",
+        "wooden",
+        "cabinets",
+        "brown",
+        "wood",
+        "kitchen"
+      ],
+      "relations": [
+        {
+          "object": 3,
+          "edge_label": "underneath"
+        },
+        {
+          "object": 53,
+          "edge_label": "underneath"
+        }
+      ]
+    },
+    "43": {
+      "label": "kitchen cabinets",
+      "x": 6.082982837459865,
+      "y": 7.8754581091166465,
+      "z": 1.908337556991972,
+      "attributes": [
+        "wooden",
+        "kitchen",
+        "cabinets"
+      ],
+      "relations": [
+        {
+          "object": 52,
+          "edge_label": "underneath"
+        }
+      ]
+    },
+    "44": {
+      "label": "object",
+      "x": 6.047405934229689,
+      "y": 2.947921725860329,
+      "z": 0.7958283591446137,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 11,
+          "edge_label": ""
+        },
+        {
+          "object": 22,
+          "edge_label": ""
+        },
+        {
+          "object": 26,
+          "edge_label": ""
+        },
+        {
+          "object": 47,
+          "edge_label": ""
+        }
+      ]
+    },
+    "45": {
+      "label": "toaster oven",
+      "x": 6.383012510372692,
+      "y": 7.2201178781153486,
+      "z": 1.0995208588228271,
+      "attributes": [
+        "silver",
+        "bread",
+        "toaster",
+        "rectangular",
+        "oven",
+        "toster",
+        "black"
+      ],
+      "relations": [
+        {
+          "object": 33,
+          "edge_label": "next to"
+        },
+        {
+          "object": 52,
+          "edge_label": "next to"
+        },
+        {
+          "object": 53,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "46": {
+      "label": "laundry basket",
+      "x": 5.748586593239994,
+      "y": 2.2095279309709195,
+      "z": 0.3435783124007916,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 50,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "47": {
+      "label": "guitar",
+      "x": 5.775978212395022,
+      "y": 3.3493875293962416,
+      "z": 0.473062458718496,
+      "attributes": [
+        "full-size",
+        "brown"
+      ],
+      "relations": [
+        {
+          "object": 11,
+          "edge_label": "behind the wall"
+        },
+        {
+          "object": 22,
+          "edge_label": "next to"
+        },
+        {
+          "object": 44,
+          "edge_label": ""
+        }
+      ]
+    },
+    "48": {
+      "label": "tissue box",
+      "x": 4.078248083591461,
+      "y": 0.8832669238249461,
+      "z": 0.7990990370512009,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 19,
+          "edge_label": "next to"
+        },
+        {
+          "object": 49,
+          "edge_label": "above"
+        },
+        {
+          "object": 59,
+          "edge_label": ""
+        }
+      ]
+    },
+    "49": {
+      "label": "nightstand",
+      "x": 3.9263033032041244,
+      "y": 0.9645176740474881,
+      "z": 0.4837341365001931,
+      "attributes": [
+        "white",
+        "bed",
+        "little",
+        "small"
+      ],
+      "relations": [
+        {
+          "object": 14,
+          "edge_label": "next to"
+        },
+        {
+          "object": 48,
+          "edge_label": "underneath"
+        },
+        {
+          "object": 59,
+          "edge_label": ""
+        }
+      ]
+    },
+    "50": {
+      "label": "nightstand",
+      "x": 6.007419255759212,
+      "y": 1.6983192768334354,
+      "z": 0.5695580069702196,
+      "attributes": [
+        "small",
+        "white",
+        "wooden",
+        "table"
+      ],
+      "relations": [
+        {
+          "object": 4,
+          "edge_label": "behind the wall"
+        },
+        {
+          "object": 46,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "51": {
+      "label": "dish rack",
+      "x": 6.050429675538661,
+      "y": 8.193222743979955,
+      "z": 1.1475184294631926,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 3,
+          "edge_label": "above"
+        },
+        {
+          "object": 53,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "52": {
+      "label": "microwave",
+      "x": 6.257470807858875,
+      "y": 7.306193466697421,
+      "z": 1.7168037279375963,
+      "attributes": [
+        "white",
+        "rectangular",
+        "toaster",
+        "wall-mounted"
+      ],
+      "relations": [
+        {
+          "object": 43,
+          "edge_label": "above"
+        },
+        {
+          "object": 45,
+          "edge_label": "next to"
+        },
+        {
+          "object": 53,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "53": {
+      "label": "toaster",
+      "x": 6.32807234260771,
+      "y": 7.7280992534425526,
+      "z": 1.1082246220774121,
+      "attributes": [
+        "white",
+        "small",
+        "two",
+        "slice"
+      ],
+      "relations": [
+        {
+          "object": 3,
+          "edge_label": "above"
+        },
+        {
+          "object": 42,
+          "edge_label": "above"
+        },
+        {
+          "object": 45,
+          "edge_label": "next to"
+        },
+        {
+          "object": 51,
+          "edge_label": "next to"
+        },
+        {
+          "object": 52,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "54": {
+      "label": "door",
+      "x": 7.339723078303512,
+      "y": 5.541977533129944,
+      "z": 1.032710727322909,
+      "attributes": [
+        "white",
+        "wooden",
+        "closed",
+        "frame"
+      ],
+      "relations": [
+        {
+          "object": 65,
+          "edge_label": "attached to"
+        }
+      ]
+    },
+    "55": {
+      "label": "ceiling",
+      "x": 3.5197817271383425,
+      "y": 5.690984540829422,
+      "z": 2.6215471504883445,
+      "attributes": [],
+      "relations": []
+    },
+    "56": {
+      "label": "shelf",
+      "x": 2.4657413928365353,
+      "y": 7.060757846590029,
+      "z": 1.2738122064986268,
+      "attributes": [
+        "beige",
+        "wooden",
+        "bookshelf",
+        "large",
+        "bookcase",
+        "entertainment-center"
+      ],
+      "relations": []
+    },
+    "57": {
+      "label": "bicycle",
+      "x": 0.7079481055229409,
+      "y": 4.395333233788527,
+      "z": 0.5038392267714754,
+      "attributes": [],
+      "relations": []
+    },
+    "58": {
+      "label": "shoes",
+      "x": 1.4797948238461516,
+      "y": 2.3039742680483086,
+      "z": 0.1252316078820894,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 35,
+          "edge_label": "next to"
+        }
+      ]
+    },
+    "59": {
+      "label": "object",
+      "x": 3.6682512025413274,
+      "y": 0.8697736062718637,
+      "z": 0.6193708710887897,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 7,
+          "edge_label": ""
+        },
+        {
+          "object": 14,
+          "edge_label": ""
+        },
+        {
+          "object": 48,
+          "edge_label": ""
+        },
+        {
+          "object": 49,
+          "edge_label": ""
+        }
+      ]
+    },
+    "60": {
+      "label": "object",
+      "x": 5.8622680352284355,
+      "y": 2.1026869546144438,
+      "z": 1.347626587519279,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 26,
+          "edge_label": ""
+        },
+        {
+          "object": 41,
+          "edge_label": ""
+        }
+      ]
+    },
+    "61": {
+      "label": "object",
+      "x": 3.9869997100492496,
+      "y": 2.584927938680733,
+      "z": 0.8955608585239512,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 62,
+          "edge_label": ""
+        }
+      ]
+    },
+    "62": {
+      "label": "object",
+      "x": 4.271374082807357,
+      "y": 2.185568639469631,
+      "z": 0.8767793099892321,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 37,
+          "edge_label": ""
+        },
+        {
+          "object": 61,
+          "edge_label": ""
+        }
+      ]
+    },
+    "63": {
+      "label": "doorframe",
+      "x": 6.72473386193023,
+      "y": 3.661161484525484,
+      "z": 1.175800722277285,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 25,
+          "edge_label": "supporting"
+        }
+      ]
+    },
+    "64": {
+      "label": "mirror",
+      "x": 7.905408158207571,
+      "y": 3.569835378634219,
+      "z": 1.679403474788792,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 24,
+          "edge_label": "attached to"
+        }
+      ]
+    },
+    "65": {
+      "label": "doorframe",
+      "x": 7.290319903808482,
+      "y": 5.507270031115588,
+      "z": 1.1551282538703698,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 54,
+          "edge_label": "supporting"
+        }
+      ]
+    },
+    "66": {
+      "label": "guitar case",
+      "x": 3.9129607125894346,
+      "y": 7.306477795785932,
+      "z": 0.5729179708982137,
+      "attributes": [],
+      "relations": [
+        {
+          "object": 2,
+          "edge_label": "next to"
+        },
+        {
+          "object": 30,
+          "edge_label": "behind the table"
+        },
+        {
+          "object": 31,
+          "edge_label": "behind the table"
+        }
+      ]
+    }
+  }
+}

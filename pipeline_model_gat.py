@@ -328,7 +328,9 @@ class TransformerProgramDecoder(torch.nn.Module):
         # For Hierarchical Deocding
         ##################################
         TEXT = GQATorchDataset.TEXT
+        # TEXT = ScanNetGQA.TEXT
         self.num_queries = GQATorchDataset.MAX_EXECUTION_STEP
+        # self.num_queries = ScanNetGQA.MAX_EXECUTION_STEP
         self.query_embed = torch.nn.Embedding(self.num_queries, ninp)
 
         decoder_layers = torch.nn.TransformerDecoderLayer(ninp, nhead, nhid, dropout)
@@ -416,7 +418,9 @@ class TransformerProgramDecoder(torch.nn.Module):
         max_output_len = 16 # 80 # program concat 80, full answer max 15, instr max 10
         batch_size = memory.size(1) * self.num_queries
 
+        # AK
         TEXT = GQATorchDataset.TEXT
+        # TEXT = ScanNetGQA.TEXT
         output = torch.ones(max_output_len, batch_size).long().to(memory.device) * TEXT.vocab.stoi[TEXT.init_token]
 
 
@@ -503,6 +507,7 @@ class TransformerFullAnswerDecoder(torch.nn.Module):
         batch_size = memory.size(1)
 
         TEXT = GQATorchDataset.TEXT
+        # TEXT = ScanNetGQA.TEXT
         output = torch.ones(max_output_len, batch_size).long().to(memory.device) * TEXT.vocab.stoi[TEXT.init_token]
 
 
@@ -554,6 +559,10 @@ class GroundTruth_SceneGraph_Encoder(torch.nn.Module):
     def __init__(self):
         super(GroundTruth_SceneGraph_Encoder, self).__init__()
         from gqa_dataset_entry import GQA_gt_sg_feature_lookup
+        # from ScanNetGQA_dataset import ScanNetGQA
+        # sg_TEXT = ScanNetGQA.SG_ENCODING_TEXT
+        # sg_vocab = ScanNetGQA.SG_ENCODING_TEXT.vocab
+
         sg_TEXT = GQA_gt_sg_feature_lookup.SG_ENCODING_TEXT
         sg_vocab = GQA_gt_sg_feature_lookup.SG_ENCODING_TEXT.vocab
 
@@ -587,7 +596,8 @@ class GroundTruth_SceneGraph_Encoder(torch.nn.Module):
         edge_attr_embed = self.sg_vocab_embedding(gt_scene_graphs.edge_attr)
 
         # yanhao: for the manually added symmetric edges, reverse the sign of emb to denote reverse relationship:
-        edge_attr_embed[gt_scene_graphs.added_sym_edge, :, :] *= -1
+        # AK: uncomment line below to add sym edges back in
+        edge_attr_embed[gt_scene_graphs.added_sym_edge, :, :] *= -1 
 
 
         # [ num_edges, MAX_EDGE_TOKEN_LEN, sg_emb_dim] -> [ num_edges, sg_emb_dim]
@@ -627,6 +637,11 @@ class PipelineModel(torch.nn.Module):
         ##################################
         TEXT = GQATorchDataset.TEXT
         text_vocab = GQATorchDataset.TEXT.vocab
+        
+        # AK TODO: maybe should combine vocab from 2 datasets?
+        # TEXT = ScanNetGQA.TEXT
+        # text_vocab = ScanNetGQA.TEXT.vocab
+
         text_emb_dim = 300 # 300d glove
         text_pad_idx = text_vocab.stoi[TEXT.pad_token]
         text_vocab_size = len(text_vocab)
@@ -715,6 +730,7 @@ class PipelineModel(torch.nn.Module):
         ##################################
         # Build Short Answer Classification Module, Only for debug.
         ##################################
+        # AK TODO: change this to the number of short answers
         num_short_answer_choices = 1842 # hard coding
         hid_dim = self.question_hidden_dim  * 3 # due to concat
         # self.logit_fc = torch.nn.Linear(hid_dim, num_short_answer_choices)
@@ -791,7 +807,6 @@ class PipelineModel(torch.nn.Module):
         x_executed = self.gat_seq(x=x_encoded, edge_index=gt_scene_graphs.edge_index, edge_attr=edge_attr_encoded, instr_vectors=instr_vectors, batch=gt_scene_graphs.batch)
         
 
-
         ##################################
         # Final Layer of the Neural Execution Module, global pooling
         # (batch_size, channels)
@@ -804,19 +819,12 @@ class PipelineModel(torch.nn.Module):
             # no need for edge features since it is global node pooling
             size = None)
 
-
-
-
         ##################################
         # Call Short Answer Classification Module Only for Debug
         ##################################
         # short_answer_feature = questions_encoded[0]
         short_answer_feature = torch.cat( ( graph_final_feature, questions_encoded[0], graph_final_feature * questions_encoded[0] ), dim=-1 )
-
         short_answer_logits = self.logit_fc(short_answer_feature)
-
-
-
 
         return programs_output, short_answer_logits
 

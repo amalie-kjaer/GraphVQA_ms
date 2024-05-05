@@ -268,8 +268,7 @@ class GQA_gt_sg_feature_lookup:
             MAX_OBJ_TOKEN_LEN = 12
 
             # 4 X '<pad>'
-            object_token_arr = np.ones(MAX_OBJ_TOKEN_LEN, dtype=np.int_) * \
-                SG_ENCODING_TEXT.vocab.stoi[SG_ENCODING_TEXT.pad_token]
+            object_token_arr = np.ones(MAX_OBJ_TOKEN_LEN, dtype=np.int_) * SG_ENCODING_TEXT.vocab.stoi[SG_ENCODING_TEXT.pad_token]
 
             # should have no error
             object_token_arr[0] = SG_ENCODING_TEXT.vocab.stoi[obj['name']]
@@ -351,6 +350,7 @@ class GQA_gt_sg_feature_lookup:
         # print("edge_feature_list_arr", edge_feature_list_arr.shape)
 
         edge_topology_list_arr = np.stack(edge_topology_list, axis=0)
+        # print('edge_topology_list',edge_topology_list)
         # print("edge_topology_list_arr", edge_topology_list_arr.shape)
         del edge_topology_list_arr
 
@@ -468,9 +468,9 @@ class GQATorchDataset(torch.utils.data.Dataset):
                 self.load_qa_vocab()
 
         print("finished loading the data, totally {} instances".format(len(self.data)))
+        # AK:
+        self.load_qa_vocab()
         self.vocab = GQATorchDataset.TEXT.vocab
-        # AK
-        # print(self.data)
 
     def __getitem__(self, index):
 

@@ -4,6 +4,7 @@ __pycache__/
 models/
 questions/original/
 questions/*.json
+questions/
 sceneGraphs/
 *.tar
 *.log
